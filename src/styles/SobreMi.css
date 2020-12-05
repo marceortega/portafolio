@@ -1,0 +1,37 @@
+.contenedorPrincipal{
+    background-color: #FEBCA2;
+    width: 100%;
+    height: 1024px;
+    
+    
+    
+      
+}
+.polloFondo{
+    background: url('../assets/img/pollo.jpg');
+    width: 60%;
+    height: 537px;
+    margin-left: 413px;
+    margin-top: -33px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    transform:rotate(170deg);
+    -ms-transform:rotate(170deg); /* IE 9 */
+    -webkit-transform:rotate(170deg); /* Opera, Chrome, and Safari */
+    z-index: 1;
+   
+}
+.marcoTres{
+    background: url('../assets/img/marcoTres.png');
+    width: 100%;
+    height: 543px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-top: -236px;
+    z-index: 3;
+    
+    
+
+}

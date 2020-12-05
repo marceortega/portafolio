@@ -1,0 +1,63 @@
+.contenedorPrincipal{
+    background-color: #FEBCA2;
+    width: 100%;
+    height: 2048px;
+    z-index: -1;
+    
+    
+    
+      
+}
+.polloFondo{
+    background: url('../assets/img/pollo.jpg');
+    width: 60%;
+    height: 537px;
+    margin-left: 413px;
+    margin-top: -33px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    transform:rotate(170deg);
+    -ms-transform:rotate(170deg); /* IE 9 */
+    -webkit-transform:rotate(170deg); /* Opera, Chrome, and Safari */
+    z-index: 1;
+   
+}
+
+.contenidoUno{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    width: 548px;
+    height: 795px;
+}
+.marcoUno{
+    background: url('../assets/img/marcoUno.png');
+    width: 40%;
+    height: 41%;
+    margin-left: 130px;
+    margin-top: -413px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    z-index: -1;
+}
+
+.textUno{
+    width: 445px;
+height: 218px;
+margin-left: 824px;
+margin-top: 376px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+text-align: justify;
+
+color: #605454;
+background-color: red;
+
+}
+

@@ -1,0 +1,120 @@
+/* Reset css :  Con este código eliminamos márgenes, 
+padding y otras propiedades que los navegadores 
+añaden automáticamente */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');
+
+*{
+    box-sizing: border-box;
+}
+
+
+.fondoInicio{
+    
+   
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/img/pollo.jpg');
+ /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+    background-color: #FEBCA2;
+}
+
+/* @media only screen and (max-width: 100px) {
+
+.fondoInicio {
+  
+  background-image: url('../assets/img/pollo.jpg');
+  
+}
+
+  } */
+
+
+.nombreLogo{
+  width: 96%;
+  max-width: 216px;
+margin: 0 auto;
+margin-left: 4%;
+margin-top: 2%;
+
+
+
+
+
+}
+.logo {
+  width: 100%;
+  height: auto;
+  }
+
+.titulo{
+  width:55%;
+height: 41%;
+margin-left: 39%;
+margin-top: -49%;
+background-color: blue;
+
+
+}
+
+.front{
+  width: 48%;
+  height: 20%;
+  background-image: url('../assets/img/FRONT.svg');
+  background-position: center;
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+  /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+}
+
+.end{
+  width: 26%;
+  height: 20%;
+  margin-left: 10%;
+  background-image: url('../assets/img/END.svg');
+background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+
+
+}
+.developer{
+  width: 99%;
+  height: 23%;
+  background-image: url('../assets/img/DEVELOPER.svg');
+background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+}
+.linesLateral{
+  width: 50%;
+  height: 2%;
+  margin-left: 50%;
+  margin-top: 35%;
+
+  background: #FB997E;
+}
+
+.linesLateralDos{
+  width: 40%;
+height: 2.8%;
+margin-left: 60%;
+  margin-top: 2%;
+
+background: #ED7C5E;
+}
+
+.linesLateralTres{
+  width: 32%;
+height: 1%;
+margin-left: 68%;
+margin-top: 3%;
+
+background: #605454;
+}
