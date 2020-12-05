@@ -4,64 +4,81 @@ import {
   } from "react-router-dom";
 import '../styles/Inicio.css';
 import Group13 from '../assets/img/Group13.svg'
+import FRONT from '../assets/img/FRONT.svg'
+import END from '../assets/img/END.svg'
+import DEVELOPER from '../assets/img/DEVELOPER.svg'
+import navbar from '../assets/img/navbar.svg'
+import sociales from '../assets/img/sociales.svg'
+import proyectos from '../assets/img/proyectos.svg'
+import yo from '../assets/img/yo.svg'
+import contactame from '../assets/img/contactame.svg'
+
 
 
 const Inicio = () => {
  
     return (
         <div className="fondoInicio">
-            <div className="btn-group">
-                <Link to="/proyectos"className="btn btn-dark">
-                   Proyectos
-               </Link>
-               <Link to="/yo"className="btn btn-dark">
-                   yo
-               </Link>
-               <Link to="/contacto"className="btn btn-dark">
-                   Contactame
-               </Link>
-
+           <div className="navbar" data-aos="slide-left"
+        data-aos-duration="1000">
+           <img className="navbarImagen" src={navbar} alt="" />
            </div>
            <div className="nombreLogo" data-aos="slide-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
                 data-aos-duration="1000">  
                 <img className="logo" src={Group13} alt="" />
-                
-  
            </div>
            
            <div className="linesLateral" data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
+                
                 data-aos-duration="2000">
                
            </div>
            <div className="linesLateralDos" data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
+               
                 data-aos-duration="1000">
                
            </div>
            <div className="linesLateralTres" data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
+                
                 data-aos-duration="1000">
                
            </div>
-          
+           <div className="proyectos" data-aos="slide-left"
+        data-aos-duration="1000">
+           
+           <Link to="/proyectos">
+           <img className="proyectosImagen" src={proyectos} alt="" />
+               </Link>
+           </div>
+           <div className="yo" data-aos="slide-left"
+        data-aos-duration="2500">
+            <Link to="/yo">
+            <img className="yoImagen" src={yo} alt="" />
+               </Link>
+           
+           </div>
+           <div className="contactame" data-aos="slide-left"
+        data-aos-duration="3000">
+             <Link to="/contacto">
+             <img className="contactameImagen" src={contactame} alt="" />
+               </Link>
+                      </div>
+           
 <div className="titulo">  
 <div className="front"  data-aos="slide-left"
                         data-aos-duration="2000">
+                            <img className="frontImagen" src={FRONT} alt="" />
 
                          </div>
                
                <div className="end" data-aos="slide-left"
         data-aos-duration="1000">
+            <img className="endImagen" src={END} alt="" />
 		
 	    </div>
         <div className="developer" data-aos="slide-left"
         data-aos-duration="1000">
+            <img className="developerImagen" src={DEVELOPER} alt="" />
 		
 	    </div>
                
@@ -124,7 +141,10 @@ const Inicio = () => {
 	</article>
 		<h1>.</h1> */}
 
-
+<div className="sociales" data-aos="slide-left"
+        data-aos-duration="1000">
+           <img className="socialesImagen" src={sociales} alt="" />
+           </div>
 
         
         </div>

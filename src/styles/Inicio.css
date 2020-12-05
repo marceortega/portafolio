@@ -6,6 +6,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 *{
     box-sizing: border-box;
+    
 }
 
 
@@ -16,7 +17,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     height: 100vh;
     background-image: url('../assets/img/pollo.jpg');
  /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
@@ -33,17 +34,23 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
   } */
 
-
+.navbar{
+  width: 96%;
+  max-width: 130px;
+margin: 0 auto;
+margin-left: 82%;
+margin-top: 2%;
+}
+.navbarImagen{
+  width: 100%;
+  height: auto;
+}
 .nombreLogo{
   width: 96%;
-  max-width: 216px;
+  max-width: 300px;
 margin: 0 auto;
-margin-left: 4%;
-margin-top: 2%;
-
-
-
-
+margin-left: 6%;
+margin-top: -10%;
 
 }
 .logo {
@@ -51,54 +58,69 @@ margin-top: 2%;
   height: auto;
   }
 
+
+
+
 .titulo{
-  width:55%;
-height: 41%;
+  width:60%;
+height: 33%;
 margin-left: 39%;
-margin-top: -49%;
-background-color: blue;
+margin-top: -41%;
+
 
 
 }
+
+
 
 .front{
-  width: 48%;
-  height: 20%;
-  background-image: url('../assets/img/FRONT.svg');
-  background-position: center;
-      background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: cover; /* Resize the background image to cover the entire container */
-  /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+  
+ 
+  width: 96%;
+  max-width: 370px;
+margin: 0 auto;
+margin-left: 6%;
+margin-top: 2%;
+
 }
+.frontImagen{
+  width: 100%;
+  height: auto;
+}
+
 
 .end{
-  width: 26%;
-  height: 20%;
-  margin-left: 10%;
-  background-image: url('../assets/img/END.svg');
-background-position: center;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+  width: 96%;
+  max-width: 202px;
+margin: 0 auto;
+margin-left: 16%;
+margin-top: 2%;
 
 
 }
+.endImagen{
+  width: 100%;
+  height: auto;
+}
 .developer{
-  width: 99%;
-  height: 23%;
-  background-image: url('../assets/img/DEVELOPER.svg');
-background-position: center;
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+  width: 96%;
+  max-width: 600px;
+margin: 0 auto;
+margin-left: 10%;
+margin-top: 2%;
+
+}
+.developerImagen{
+  width: 100%;
+  height: auto;
 }
 .linesLateral{
   width: 50%;
   height: 2%;
   margin-left: 50%;
-  margin-top: 35%;
+  margin-top: 20%;
 
-  background: #FB997E;
+  background-color: #FB997E;
 }
 
 .linesLateralDos{
@@ -111,10 +133,54 @@ background: #ED7C5E;
 }
 
 .linesLateralTres{
-  width: 32%;
+  width: 36%;
 height: 1%;
-margin-left: 68%;
-margin-top: 3%;
+margin-left: 64%;
+margin-top: 8%;
 
 background: #605454;
+}
+.proyectos{
+  width: 96%;
+  max-width: 130px;
+margin: 0 auto;
+margin-left: 63%;
+margin-top: -3%;
+}
+.proyectosImagen{
+  width: 100%;
+  height: auto;
+}
+.yo{
+  width: 96%;
+  max-width: 130px;
+margin: 0 auto;
+margin-left: 73%;
+margin-top: -6%;
+}
+.yoImagen{
+  width: 100%;
+  height: auto;
+}
+.contactame{
+  width: 96%;
+  max-width: 130px;
+margin: 0 auto;
+margin-left: 83%;
+margin-top: -6%;
+}
+.contactameImagen{
+  width: 100%;
+  height: auto;
+}
+.sociales{
+  width: 96%;
+  max-width: 120px;
+margin: 0 auto;
+margin-left: 83%;
+margin-top: 20%;
+}
+.socialesImagen{
+  width: 100%;
+  height: auto;
 }

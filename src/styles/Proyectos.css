@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:#FEBCA2;
+    
+}
+.escrito{
+    font-size: 25px;
+    color: green;
+    position: absolute;
+}
