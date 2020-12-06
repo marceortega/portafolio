@@ -52,31 +52,23 @@ const Inicio = () => {
                 <div className="parrallax-background" >
                     <div className="parrallax-background_image" style={{ backgroundImage: `url(${pollo})`,opacity:"1", backgroundPositionY:"0rem"}}></div>
                 </div>
-           {/* <div className="navbar" data-aos="slide-left"
-        data-aos-duration="1000">
-           <img className="navbarImagen" src={navbar} alt="" />
-           </div> */}
 
-           {/* <div className="nombreLogo" data-aos="slide-left"
-                data-aos-duration="1000">  
-                <img className="logo" src={Group13} alt="" />
-           </div> */}
+
+                <div className="global-lines">
+                
+                <div className="linesLateral" data-aos="fade-left"data-aos-duration="2000"> </div>
+
+                 <div className="linesLateralDos" data-aos="fade-left"data-aos-duration="1000"> </div>
+          <div className="linesLateralTres" data-aos="fade-left"
+               
+               data-aos-duration="1000">
+              
+          </div>
+               
+                
+               
            
-           <div className="linesLateral" data-aos="fade-left"
-                
-                data-aos-duration="2000">
-               
-           </div>
-           <div className="linesLateralDos" data-aos="fade-left"
-               
-                data-aos-duration="1000">
-               
-           </div>
-           <div className="linesLateralTres" data-aos="fade-left"
-                
-                data-aos-duration="1000">
-               
-           </div>
+          
            <div className="proyectos" data-aos="slide-left"
         data-aos-duration="1000">
            
@@ -97,6 +89,20 @@ const Inicio = () => {
              <img className="contactameImagen" src={contactame} alt="" />
                </Link>
                       </div>
+                      </div>
+
+                      
+                {/* <div className="global-header">
+                
+                <div className="nombreLogo" data-aos="slide-left"
+                data-aos-duration="1000">  
+                
+                <Link to="/">
+                <img className="logoNombre" src={Group13} alt="" />
+             
+               </Link>
+                </div>
+            </div>  */}
            
 <div className="titulo">  
 <div className="front"  data-aos="slide-left"

@@ -86,6 +86,75 @@ position: relative;
 }
 
 
+
+
+
+/* .global-Lines{
+    padding-left:84% ;
+    padding-top:2% ;
+    position: fixed;
+    z-index: 2;
+    
+    
+}
+@media (min-widht:767px){
+  .global-lines{
+    width: 191px;
+    height: 166px;
+    overflow: hidden;
+  }
+}  */
+/* .global-lines{
+  width: 49%;
+  
+  margin-left: 50%;
+  margin-top: 0%;
+  padding-top: 42%;
+position: relative;
+  background-color: red;
+}  */
+.linesLateral{
+  width: 50%;
+  
+  height: 3%;
+
+margin-left: 50%;
+margin-top: 38%;
+
+
+position: absolute;
+background-color: #FB997E;
+
+}
+
+.linesLateralDos{
+  width: 42%;
+height: 2%;
+margin-left: 58%;
+  margin-top: 42%;
+  position: absolute;
+ background-color: #ED7C5E;
+
+}
+
+.linesLateralTres{
+  width: 36%;
+height: 1%;
+margin-left: 64%;
+margin-top: 50%;
+position: absolute;
+background: #605454;
+}
+/* .linesLateral{
+  width: 50%;
+  height: 2%;
+  margin-left: 50%;
+  margin-top: 20%;
+
+  background-color: #FB997E;
+} */
+
+
 /* 
 /* 
 nav{
@@ -213,7 +282,7 @@ button{
 
   } */
 
-.navbar{
+/* .navbar{
   width: 96%;
   max-width: 130px;
 margin: 0 auto;
@@ -224,12 +293,12 @@ padding-top: 2%;
 .navbarImagen{
   width: 100%;
   height: auto;
-} 
+}  */
 
 
 
 
-.titulo{
+/* .titulo{
   width:60%;
 height: 33%;
 margin-left: 39%;
@@ -237,23 +306,37 @@ margin-top: -41%;
 
 
 
+} */
+
+.titulo{
+  padding-left:35% ;
+  padding-top:10% ;
+  z-index: 2;
+  
+  
 }
 
-
-
+@media (min-widht:767px){
+  .titulo{
+    padding-left:50px ;
+    padding-top: 200px ;
+    margin-top:300px
+  }
+} 
 .front{
-  
- 
   width: 96%;
-  max-width: 370px;
+  max-width: 300px;
 margin: 0 auto;
 margin-left: 6%;
-margin-top: 2%;
+margin-top: 1%;
+
+overflow: hidden;
+position: relative;
 
 }
 .frontImagen{
+  position: relative;
   width: 100%;
-  height: auto;
 }
 
 
@@ -268,8 +351,9 @@ margin-top: 2%;
 }
 .endImagen{
   width: 100%;
-  height: auto;
+  position: relative;
 }
+
 .developer{
   width: 96%;
   max-width: 600px;
@@ -280,40 +364,19 @@ margin-top: 2%;
 }
 .developerImagen{
   width: 100%;
-  height: auto;
-}
-.linesLateral{
-  width: 50%;
-  height: 2%;
-  margin-left: 50%;
-  margin-top: 20%;
-
-  background-color: #FB997E;
+  position: relative;
 }
 
-.linesLateralDos{
-  width: 40%;
-height: 2.8%;
-margin-left: 60%;
-  margin-top: 2%;
 
-background: #ED7C5E;
-}
 
-.linesLateralTres{
-  width: 36%;
-height: 1%;
-margin-left: 64%;
-margin-top: 8%;
-
-background: #605454;
-}
 .proyectos{
   width: 96%;
   max-width: 130px;
 margin: 0 auto;
 margin-left: 63%;
-margin-top: -3%;
+margin-top: 0%;
+padding-top: 43%;
+position: absolute;
 }
 .proyectosImagen{
   width: 100%;
@@ -324,7 +387,9 @@ margin-top: -3%;
   max-width: 130px;
 margin: 0 auto;
 margin-left: 73%;
-margin-top: -6%;
+margin-top: 0%;
+padding-top: 43%;
+position: absolute;
 }
 .yoImagen{
   width: 100%;
@@ -335,7 +400,9 @@ margin-top: -6%;
   max-width: 130px;
 margin: 0 auto;
 margin-left: 83%;
-margin-top: -6%;
+margin-top: 0%;
+padding-top: 43%;
+position: absolute;
 }
 .contactameImagen{
   width: 100%;
