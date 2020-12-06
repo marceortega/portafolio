@@ -32,19 +32,30 @@ const Inicio = () => {
                </Link>
                 </div>
             </div> 
-            {/* <div className="navigation">
 
-            </div> */}
+            
+            <div className="global-nav">
+                
+            <div className="navEgg_svg" data-aos="slide-left"
+        data-aos-duration="1000">
+                
+               
+                <img className="navbarImagen" src={navbar} alt="" />
+             
+               
+                </div>
+            </div>
+         
 
 
             <div className="layout-main">
                 <div className="parrallax-background" >
                     <div className="parrallax-background_image" style={{ backgroundImage: `url(${pollo})`,opacity:"1", backgroundPositionY:"0rem"}}></div>
                 </div>
-           <div className="navbar" data-aos="slide-left"
+           {/* <div className="navbar" data-aos="slide-left"
         data-aos-duration="1000">
            <img className="navbarImagen" src={navbar} alt="" />
-           </div>
+           </div> */}
 
            {/* <div className="nombreLogo" data-aos="slide-left"
                 data-aos-duration="1000">  
