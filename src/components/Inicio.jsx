@@ -12,21 +12,44 @@ import sociales from '../assets/img/sociales.svg'
 import proyectos from '../assets/img/proyectos.svg'
 import yo from '../assets/img/yo.svg'
 import contactame from '../assets/img/contactame.svg'
+import pollo from '../assets/img/pollo.jpg'
 
 
 
 const Inicio = () => {
  
     return (
-        <div className="fondoInicio">
+        // <div className="fondoInicio">
+        <div className="layout">
+            <div className="global-header">
+                
+                <div className="nombreLogo" data-aos="slide-left"
+                data-aos-duration="1000">  
+                
+                <Link to="/">
+                <img className="logoNombre" src={Group13} alt="" />
+             
+               </Link>
+                </div>
+            </div> 
+            {/* <div className="navigation">
+
+            </div> */}
+
+
+            <div className="layout-main">
+                <div className="parrallax-background" >
+                    <div className="parrallax-background_image" style={{ backgroundImage: `url(${pollo})`,opacity:"1", backgroundPositionY:"0rem"}}></div>
+                </div>
            <div className="navbar" data-aos="slide-left"
         data-aos-duration="1000">
            <img className="navbarImagen" src={navbar} alt="" />
            </div>
-           <div className="nombreLogo" data-aos="slide-left"
+
+           {/* <div className="nombreLogo" data-aos="slide-left"
                 data-aos-duration="1000">  
                 <img className="logo" src={Group13} alt="" />
-           </div>
+           </div> */}
            
            <div className="linesLateral" data-aos="fade-left"
                 
@@ -147,6 +170,7 @@ const Inicio = () => {
            </div>
 
         
+        </div>
         </div>
     )
 }
