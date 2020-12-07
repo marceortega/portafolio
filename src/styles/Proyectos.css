@@ -124,3 +124,213 @@ position: relative;
   }
   
   
+  .footProyectos{
+    padding-left:37% ;
+    margin-top: 63%;
+    width: 83%;
+    height: 20%;
+    
+    position: fixed;
+    z-index: 2;
+   
+    
+
+    
+    
+}
+/* @media (min-widht:767px){
+  .footProyectos{
+    width: 191px;
+    height: 166px;
+    overflow: hidden;
+  }
+}  */
+.tituloProyectos{
+  width: 153%;
+  max-width: 1024px;
+margin: 0 auto;
+margin-left: -42%;
+margin-top: 0%;
+
+overflow: hidden;
+position: relative;
+
+}
+
+.ProyectosImagen{
+  position: relative;
+  width: 100%;
+}
+
+
+.cartonEggs{
+    margin-left: 19%;
+    
+   
+    padding-top:4% ;
+    width: 60%;
+    height: 78%;
+    z-index: 2;
+    
+    
+    
+  }
+  
+  @media (min-widht:767px){
+    .cartonEggs{
+      padding-left:50px ;
+      padding-top: 200px ;
+      margin-top:300px
+    }
+  } 
+  .carton{
+    width: 100%;
+    max-width: 900px;
+  margin: 0 auto;
+  margin-left: 0%;
+  margin-top: 0%;
+  
+  overflow: hidden;
+  position: relative;
+
+  
+  }
+  .cartonImagen{
+    position: relative;
+    width: 100%;
+  }
+  
+  .sombraCarton{
+    width: 58%;
+    max-width: 788px;
+  margin: 0 auto;
+  margin-left: 12%;
+  margin-top: -54%;
+  
+  overflow: hidden;
+  position: relative;
+  
+  
+  }
+  .sombraCartonImagen{
+    position: relative;
+    width: 100%;
+  }
+  
+  .global-Sociales{
+    padding-left:84% ;
+    margin-top: 63%;
+    
+    position: fixed;
+    z-index: 2;
+   
+    
+
+    
+    
+}
+ @media (min-widht:767px){
+  .global-Sociales{
+    width: 191px;
+    height: 166px;
+    overflow: hidden;
+  }
+}  
+.sociales{
+  width: 96%;
+  max-width: 300px;
+margin: 0 auto;
+margin-left: 6%;
+margin-top: 1%;
+
+overflow: hidden;
+position: relative;
+
+}
+
+.socialesImagen{
+  position: relative;
+  width: 100%;
+}
+/* 
+.eggsProyect{
+  
+    margin-top: 15%;
+    margin-left: 41%;
+    
+    position: absolute;
+    z-index: 2;
+    
+ 
+    width: 19%;
+    height: 70%;
+    
+  }
+  @media (min-widht:767px){
+  .eggsProyect{
+    width: 191px;
+    height: 166px;
+    overflow: hidden;
+  }
+  }  */
+   .comidaParaTodos{
+  width: 28%;
+  
+  
+  
+  margin-top: 38%;
+  margin-left: 10%;
+  overflow: hidden;
+  position: relative;
+ 
+  
+  } 
+  
+  .comidaParaTodosImagen{
+  
+    width: 100%;
+    position: relative;
+   
+  
+  }
+  .redSocialMbti{
+    width: 28%;
+    
+    
+    margin-left:36%;
+    margin-top: 0%;
+ 
+    overflow: hidden;
+    position: relative;
+   
+    
+    } 
+    
+    .redSocialImagen{
+    
+    width: 100%;
+    position: relative;
+    
+    
+   
+    }
+  
+     .amaPica{
+      width: 28%;
+      
+      
+      margin-left:65%;
+      margin-top: -33%;
+     
+     
+      
+      } 
+      
+      .amaPicaImagen{
+        width: 100%;
+        position: relative;
+        
+      
+     
+      }
+  
