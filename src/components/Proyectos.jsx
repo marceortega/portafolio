@@ -75,9 +75,6 @@ const Proyectos = () => {
 
                          </div>
                                     
-                        
-        
-               
                </div>
                <div className="sombraCarton"  data-aos="slide-left"
                         data-aos-duration="1500">
