@@ -55,7 +55,7 @@ position: relative;
   } */
 .global-nav{
     padding-left:84% ;
-    padding-top:2% ;
+    padding-top:3% ;
     position: fixed;
     z-index: 2;
     
@@ -138,99 +138,13 @@ margin-left: 58%;
 }
 
 .linesLateralTres{
-  width: 36%;
+  width: 7%;
 height: 1%;
-margin-left: 64%;
+margin-left: 93%;
 margin-top: 50%;
 position: absolute;
 background: #605454;
 }
-/* .linesLateral{
-  width: 50%;
-  height: 2%;
-  margin-left: 50%;
-  margin-top: 20%;
-
-  background-color: #FB997E;
-} */
-
-
-/* 
-/* 
-nav{
-  display: block;
-}
-.navigation{
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  /* position: fixed; 
-  z-index: 4;
-  right: 0;
-  top: 0;
-  transition: width 100ms linear 0.75s, heigth 100ms linear 0.75s;
-  background-color: blue;
-}
-@media (min-widht:767px){
-  .navigation{
-    width: 191px;
-    height: 166px;
-    overflow: hidden;
-  }
-} 
-
-.navigation_hamburguer{
-z-index: 5;
-
-}
-button{
-  line-height: 1.1;
-  background-color: transparent;
-  border-color: blue;
-  border-radius: 0;
-  padding: 0;
-  border-width: 1px;
-  display: inline-block;
-  color: inherit;
-  overflow: visible;
-}
-@media (min-widht:767px){
-  .navigation_hamburguer{
-    position: absolute;
-    width: 141px;
-    height: 126px;
-    right: 50px;
-    top: 40px;
-   
-  }
-} 
-
-.navEgg{
-  z-index: 2;
-}
-
-@media (min-widht:767px){
-  .navEgg{
-    position: absolute;
-    width: 141px;
-    height: 126px;
-    right: 50px;
-    top: 40px;
-   
-  }
-} 
-.navEgg_nest{
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transition: width 0.75s linear, heigth 0.75s linear;
-}
-
-.navEgg_svg{
-  width: 100%;
-  position: relative;
-}
-
- */
- */
 
 
 
@@ -255,58 +169,7 @@ button{
   width: 100%;
 
 }
-/* .fondoInicio{
-    
-   
-    width: 100%;
-    max-width: 1440px;
-    height: 100vh;
-    min-height: 1024px;
-    background-image: url('../assets/img/pollo.jpg');
- /* Para dejar la imagen de fondo centrada, vertical y horizontalmente 
-    background-position: center center;
-    background-repeat: no-repeat; /* Do not repeat the image
-    background-size: cover; /* Resize the background image to cover the entire container */
-/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla 
-    background-color: #FEBCA2;
-    
-} */
 
-/* @media only screen and (max-width: 100px) {
-
-.fondoInicio {
-  
-  background-image: url('../assets/img/pollo.jpg');
-  
-}
-
-  } */
-
-/* .navbar{
-  width: 96%;
-  max-width: 130px;
-margin: 0 auto;
-margin-left: 82%;
-margin-top: 0%;
-padding-top: 2%;
-}
-.navbarImagen{
-  width: 100%;
-  height: auto;
-}  */
-
-
-
-
-/* .titulo{
-  width:60%;
-height: 33%;
-margin-left: 39%;
-margin-top: -41%;
-
-
-
-} */
 
 .titulo{
   padding-left:35% ;
@@ -369,7 +232,7 @@ margin-top: 2%;
 
 
 
-.proyectos{
+/* .proyectos{
   width: 96%;
   max-width: 130px;
 margin: 0 auto;
@@ -381,8 +244,8 @@ position: absolute;
 .proyectosImagen{
   width: 100%;
   height: auto;
-}
-.yo{
+} */
+/* .yo{
   width: 96%;
   max-width: 130px;
 margin: 0 auto;
@@ -394,7 +257,7 @@ position: absolute;
 .yoImagen{
   width: 100%;
   height: auto;
-}
+} */
 .contactame{
   width: 96%;
   max-width: 130px;
@@ -408,14 +271,119 @@ position: absolute;
   width: 100%;
   height: auto;
 }
-.sociales{
-  width: 96%;
-  max-width: 120px;
+
+
+.global-eggs{
+  
+  margin-top: 47%;
+  margin-left: 59%;
+  
+  position: absolute;
+  z-index: 2;
+  
+
+  
+  
+}
+@media (min-widht:767px){
+.global-eggs{
+  width: 191px;
+  height: 166px;
+  overflow: hidden;
+}
+} 
+.proyectos{
+width: 80%;
+max-width: 300px;
 margin: 0 auto;
-margin-left: 83%;
-margin-top: 20%;
+margin-left: 6%;
+margin-top: 1%;
+
+overflow: hidden;
+position: relative;
+
+
 }
-.socialesImagen{
+
+.proyectosImagen{
+
+width: 100%;
+position: relative;
+
+}
+.yo{
   width: 100%;
-  height: auto;
-}
+  max-width: 300px;
+  
+  margin-left:80%;
+  margin-top: -59%;
+ ;
+  overflow: hidden;
+  position: relative;
+  
+  
+  }
+  
+  .yoImagen{
+  
+  width: 100%;
+  position: relative;
+ 
+  }
+
+  .contactame{
+    width: 76%;
+    max-width: 300px;
+    
+    margin-left:152%;
+    margin-top: -101%;
+   ;
+    overflow: hidden;
+    position: relative;
+    
+    
+    }
+    
+    .contactameImagen{
+    
+    width: 100%;
+    position: relative;
+   
+    }
+
+  .global-Sociales{
+      padding-left:84% ;
+      margin-top: 31%;
+      
+      position: fixed;
+      z-index: 2;
+     
+      
+
+      
+      
+  }
+  @media (min-widht:767px){
+    .global-Sociales{
+      width: 191px;
+      height: 166px;
+      overflow: hidden;
+    }
+  } 
+  .sociales{
+    width: 96%;
+    max-width: 300px;
+  margin: 0 auto;
+  margin-left: 6%;
+  margin-top: 1%;
+  
+  overflow: hidden;
+  position: relative;
+  
+  }
+  
+  .socialesImagen{
+    position: relative;
+    width: 100%;
+  }
+  

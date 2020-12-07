@@ -19,7 +19,7 @@ import pollo from '../assets/img/pollo.jpg'
 const Inicio = () => {
  
     return (
-        // <div className="fondoInicio">
+        
         <div className="layout">
             <div className="global-header">
                 
@@ -66,10 +66,8 @@ const Inicio = () => {
           </div>
                
                 
-               
-           
-          
-           <div className="proyectos" data-aos="slide-left"
+               <div className="global-eggs">
+               <div className="proyectos" data-aos="slide-left"
         data-aos-duration="1000">
            
            <Link to="/proyectos">
@@ -89,20 +87,15 @@ const Inicio = () => {
              <img className="contactameImagen" src={contactame} alt="" />
                </Link>
                       </div>
+
+               </div>
+           
+          
+          
                       </div>
 
                       
-                {/* <div className="global-header">
-                
-                <div className="nombreLogo" data-aos="slide-left"
-                data-aos-duration="1000">  
-                
-                <Link to="/">
-                <img className="logoNombre" src={Group13} alt="" />
-             
-               </Link>
-                </div>
-            </div>  */}
+               
            
 <div className="titulo">  
 <div className="front"  data-aos="slide-left"
@@ -180,13 +173,15 @@ const Inicio = () => {
 		<p>  data-aos="slide-right"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis ex tortor, vel consequat nibh porttitor in. Nam in orci ut magna lobortis imperdiet. Curabitur et blandit tortor. Nullam id quam ornare, elementum ex sed, condimentum nunc. </p>
 	</article>
 		<h1>.</h1> */}
-
+<div className="global-Sociales">
 <div className="sociales" data-aos="slide-left"
         data-aos-duration="1000">
            <img className="socialesImagen" src={sociales} alt="" />
            </div>
 
-        
+           </div>
+
+           
         </div>
         </div>
     )
