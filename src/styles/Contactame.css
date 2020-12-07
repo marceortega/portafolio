@@ -1,0 +1,164 @@
+.global-header{
+    padding-left:30px ;
+    padding-top:30px ;
+    position: fixed;
+    z-index: 2;
+    
+    
+  }
+   @media (min-widht:767px){
+    .global-header{
+      padding-left:50px ;
+      padding-top: 50px ;
+    }
+  } 
+  
+  .nombreLogo{
+    width: 96%;
+    max-width: 300px;
+  margin: 0 auto;
+  margin-left: 6%;
+  margin-top: 1%;
+  
+  overflow: hidden;
+  position: relative;
+  
+  }
+  .logoNombre{
+    position: relative;
+    width: 100%;
+  }
+  
+  .global-nav{
+      padding-left:0% ;
+      margin-left: 84%;
+      padding-top:3% ;
+      position: fixed;
+      z-index: 2;
+      
+      
+  }
+  @media (min-widht:767px){
+    .global-nav{
+      width: 191px;
+      height: 166px;
+      overflow: hidden;
+    }
+  } 
+  .navEgg_svg{
+    width: 96%;
+    max-width: 300px;
+  margin: 0 auto;
+  margin-left: 6%;
+  margin-top: 1%;
+  
+  overflow: hidden;
+  position: relative;
+  
+  }
+  
+  .navbarImagen{
+    position: relative;
+    width: 100%;
+  }
+  
+
+  /* .footContactame{
+    padding-left:37% ;
+    margin-top: 63%;
+    width: 83%;
+    height: 20%;
+    
+    position: fixed;
+    z-index: 2;
+   
+   
+
+    
+    
+}
+  .tituloContacto{
+    width: 153%;
+    max-width: 1024px;
+  margin: 0 auto;
+  margin-left: -42%;
+  margin-top: 0%;
+  
+  overflow: hidden;
+  position: relative;
+  
+  }
+  
+  .tituloContactoImagen{
+    position: relative;
+    width: 100%;
+    
+  }
+
+  .global-Sociales{
+    padding-left:84% ;
+    margin-top: 31%;
+    
+    position: fixed;
+    z-index: 2;
+   
+    
+
+    
+    
+}
+/* @media (min-widht:767px){
+  .global-Sociales{
+    width: 191px;
+    height: 166px;
+    overflow: hidden;
+  }
+}  
+.sociales{
+  width: 96%;
+  max-width: 300px;
+margin: 0 auto;
+margin-left: 6%;
+margin-top: 1%;
+
+overflow: hidden;
+position: relative;
+
+}
+
+.socialesImagen{
+  position: relative;
+  width: 100%;
+} */
+
+.fono{
+    padding-left:15% ;
+    padding-top:20% ;
+    z-index: 2;
+    
+    
+  }
+  
+  @media (min-widht:767px){
+    .fono{
+      padding-left:50px ;
+      padding-top: 200px ;
+      margin-top:300px
+    }
+  } 
+  .contactoFono{
+    width: 96%;
+   
+  margin: 0 auto;
+  
+  margin-top: 1%;
+  
+  overflow: hidden;
+  position: relative;
+  
+  }
+  .contactoFonoImagen{
+    position: relative;
+    width: 100%;
+  }
+  
