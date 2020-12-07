@@ -49,12 +49,10 @@ position: relative;
   position: relative;
   width: 100%;
 }
-/* .logo {
-  width: 100%;
-  height: auto;
-  } */
+
 .global-nav{
-    padding-left:84% ;
+    padding-left:0% ;
+    margin-left: 84%;
     padding-top:3% ;
     position: fixed;
     z-index: 2;
