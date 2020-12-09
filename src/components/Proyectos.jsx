@@ -12,6 +12,7 @@ import {
   import amaPica from '../assets/img/amaPica.svg';
   import comidaParaTodos from '../assets/img/comidaParaTodos.svg';
   import redSocialMbti from '../assets/img/redSocialMbti.svg';
+  import revelio from '../assets/img/revelio.svg';
 
 const Proyectos = () => {
     return (
@@ -107,7 +108,12 @@ const Proyectos = () => {
                </Link>
                       </div>
 
-                     
+                      <div className="revelio" data-aos="fade-up-left"
+        data-aos-duration="3000">
+             <Link to="/proyectosRevelio">
+             <img className="revelioImg" src={revelio} alt="" />
+               </Link>
+                      </div>
 
                   
                   

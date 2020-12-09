@@ -12,6 +12,7 @@ import SobreMiDescription from './components/SobreMiDescription';
 import ComidaParaTodos from './components/ComidaParaTodos';
 import RedSocial from './components/RedSocial';
 import AmaPicaRestobar from './components/AmaPicaRestobar';
+import Revelio from './components/Revelio';
 
 
 const Router = () => {
@@ -20,6 +21,7 @@ const Router = () => {
           
             <Switch>
                 <Route exact path="/contacto" component={Contactame} />
+                <Route exact path="/proyectosRevelio" component={Revelio} />
                 <Route exact path="/proyectosAmaPicaRestobar" component={AmaPicaRestobar} />
                 <Route exact path="/proyectosRedSocial" component={RedSocial} />
                 <Route exact path="/proyectosComidaParaTodos" component={ComidaParaTodos} />
