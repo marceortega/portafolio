@@ -101,14 +101,7 @@ const Revelio = () => {
             </div>
           </div>
 
-          <div
-            className="tituloRevelioMovilDos"
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="2000"
-          >
-            <img className="TituloRevelioImagenDos" src={footProyectos} alt="" />
-          </div>
+         
 
           <div className="TecnoRevelio">   
           <div
@@ -143,6 +136,19 @@ const Revelio = () => {
             <img className="imgRevelio5" src={RevelioDataLovers5} alt="" />
           </div>
         </div>
+        
+        <div className="ProyectoRevelioMovil">
+<div
+            className="tituloRevelioMovilDos"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+          >
+            <img className="TituloRevelioImagenDos" src={footProyectos} alt="" />
+          </div>
+
+</div>
+
 
         <div className="global-Sociales">
           <div

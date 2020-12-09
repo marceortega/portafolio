@@ -59,6 +59,7 @@ const Contactame = () => {
 
             
                </div>
+               
                <div className="footContactame">
 <div className="tituloContacto"data-aos="fade-down"
      data-aos-easing="linear"

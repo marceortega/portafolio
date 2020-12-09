@@ -130,6 +130,42 @@ position: relative;
   position: relative;
   width: 100%;
 } */
+.global-Sociales{
+  padding-left:84% ;
+  margin-top: 63%;
+  
+  position: fixed;
+  z-index: 2;
+ 
+  
+
+  
+  
+}
+@media (min-widht:767px){
+.global-Sociales{
+  width: 191px;
+  height: 166px;
+  overflow: hidden;
+}
+}  
+.sociales{
+width: 96%;
+max-width: 300px;
+margin: 0 auto;
+margin-left: 6%;
+margin-top: 1%;
+
+overflow: hidden;
+position: relative;
+
+}
+
+.socialesImagen{
+position: relative;
+width: 100%;
+}
+
 
 .fono{
     padding-left:15% ;
@@ -162,3 +198,17 @@ position: relative;
     width: 100%;
   }
   
+   .footContactame{
+    padding-left:18% ;
+    margin-top: 25%;
+    width: 0%;
+    height: 0%;
+    
+    position: fixed;
+    z-index: 2;
+   
+    
+
+    
+    
+} 
