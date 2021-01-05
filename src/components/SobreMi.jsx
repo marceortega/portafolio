@@ -7,7 +7,7 @@ import {
   import navbar from '../assets/img/navbar.svg'
   import pollo from '../assets/img/pollo.jpg';
   import HolaMundo from '../assets/img/HolaMundo.svg';
-  import marcoUno from '../assets/img/marcoUno.png';
+  
   import fotoPerfil from '../assets/img/fotoPerfil.svg';
 
 const SobreMi = () => {
