@@ -5,10 +5,10 @@ import {
   import '../styles/SobreMi.css'
   import Group13 from '../assets/img/Group13.svg';
   import navbar from '../assets/img/navbar.svg'
-  import marcoTres from'../assets/img/marcoTres.png';
   import pollo from '../assets/img/pollo.jpg';
   import HolaMundo from '../assets/img/HolaMundo.svg';
   import marcoUno from '../assets/img/marcoUno.png';
+  import fotoPerfil from '../assets/img/fotoPerfil.svg';
 
 const SobreMi = () => {
     return (
@@ -53,7 +53,9 @@ const SobreMi = () => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <img className="marcoImagen" src={marcoTres} alt="" />
+              
+              <img className="fotoPerfil" src={fotoPerfil} alt="" />
+
             </div>
           </div>
 
@@ -65,7 +67,7 @@ const SobreMi = () => {
            </div>
            </div>
 
-           <div className="MarcoUnoFotos">
+           {/* <div className="MarcoUnoFotos">
             <div
               className="MarcoUnoYo"
               data-aos="fade-up"
@@ -73,7 +75,7 @@ const SobreMi = () => {
             >
               <img className="marcoImagenUno" src={marcoUno} alt="" />
             </div>
-          </div>
+          </div> */}
           <p
             className="parrafoInicioYo"
             data-aos="slide-left"

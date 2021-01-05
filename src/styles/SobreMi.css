@@ -160,14 +160,14 @@ position: relative;
    
   margin: 0 auto;
   margin-left: -18%;
-  margin-top: -48%;
+  margin-top: -58%;
   
   overflow: hidden;
   position: absolute;
 
   
   }
-  .marcoImagen{
+  .fotoPerfil{
     position: relative;
     width: 100%;
   }
@@ -186,7 +186,7 @@ position: relative;
 }  */
 .footSobreMI{
     padding-left:37% ;
-    padding-top:0% ;
+    padding-top:1% ;
     z-index: 2;
     
     
@@ -254,9 +254,9 @@ position: relative;
   }
 
   .parrafoInicioYo{
-    margin-left: 55%;
-    margin-right: 17%;
-    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 19%;
+    margin-top: 24%;
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 500;
